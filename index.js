@@ -5,7 +5,8 @@ const weatherInfo = document.querySelector(".weather-info");
 const error404 = document.querySelector(".not-found");
 
 locationSearch.addEventListener("click", () => {
-    const APIkey = "1368ea3d0d2187ada17b8e7bd9154ba1";
+    //Insert API key from openweathermap.org
+    const APIkey = "############################";
     const location = document.querySelector(".search-wrapper input").value;
 
     if (location === "") {
